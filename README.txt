@@ -1,7 +1,6 @@
-1) Для работы требуется либа nettaddr
->>> pip install netaddr
+Write source network ranges one on line then empty string and then network ranges for excluding
 
-2) input.txt сначала записываются адреса департамента и через пустую строку исключения, например:
+For example fill input.txt like there:
 
 input.txt
 ---------
@@ -10,7 +9,7 @@ input.txt
 
 1.0.0.128/32
 
-3) Результат появится в output.txt
+3) As result you will get output.txt
 
 output.txt
 ----------
